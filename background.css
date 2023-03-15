@@ -1,0 +1,14 @@
+body {
+    background-image: url("Images/man.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+
+}
+h1{
+    color: blue;
+}
+p{
+    font-size: x-large;
+}

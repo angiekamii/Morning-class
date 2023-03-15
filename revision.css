@@ -1,0 +1,36 @@
+
+*{
+    background-color: lightblue;
+    color: lightcoral;
+}
+
+
+.para{
+    background-color: plum;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-decoration:underline;
+    line-height: 3.5cm;
+    text-indent: 50px;
+    word-spacing: 60px;
+    cursor: pointer;
+    border: 3px dashed black;
+    outline: 20px solid grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 60px;
+}
+.lor{
+    color: darkolivegreen;
+}
+.accu{
+    color: darkolivegreen;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}

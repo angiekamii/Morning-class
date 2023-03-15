@@ -1,0 +1,24 @@
+input[type=text] ,input[type=email], input[type=password],select{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    border: 2px solid darkgray;
+    padding: 20px;
+    box-shadow: 3px 4px 2px 5px grey;
+
+
+}
+.form{
+    height: 500px;
+    background-color: lightblue;
+    padding: 100px;
+    margin: 100px;
+}
+input[type=submit]{
+    width: 100%;
+    height: 50px;
+    background-color: darkseagreen;
+}
+input[type=submit]:hover{
+    color: #b650ff;
+}

@@ -1,0 +1,16 @@
+legend{
+    color: black;
+    font-size: 30px;
+}
+label{
+    color: black;
+    width: 150px;
+    float: left;
+}
+
+form{
+    background-color: yellow;
+    padding: 80px;
+    margin: 100px;
+}
+

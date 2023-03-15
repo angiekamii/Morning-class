@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript">
+        function validate(){
+            var name = document .getElementById("name");
+            var subject = document .getElementById("subject");
+            var phone = document .getElementById("phone");
+            var email = document .getElementById("email");
+
+            if (name.value==""|| subject.value==""|| phone.value==""||email.value==""){
+                alert("no blank values allowed");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<form   onsubmit="return validate()" action="department.html">
+<legend>CONTACT US</legend>
+    <br>
+<input type="text" id="name" placeholder="Name"><br><br>
+<input type="text" id="subject" placeholder="Subject"><br><br>
+<input type="tel" id="phone" placeholder="Phone"><br><br>
+<input type="email" id="email" placeholder="Email"><br><br>
+<textarea name="" id="message" cols="70" rows="5" placeholder="message"></textarea><br><br>
+
+<input type="submit" value="SUBMIT">
+
+</form>
+</body>
+</html>

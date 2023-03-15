@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Form</title>
+  <script type="text/javascript">
+    function validate(){
+      var Username = document.getElementById("Username");
+
+      var password = document.getElementById("password");
+
+      if (Username.value==""||password.value=="") {
+          alert("no blank spances");
+          return false;
+          }
+          else{
+              return true;
+
+      }
+    }
+
+
+  </script>
+</head>
+<body>
+<form onsubmit="return validate()" action="people.html">
+  <label for="Username">Username</label>
+  <input type="text" id="Username"><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password"><br><br>
+
+
+  <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>

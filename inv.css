@@ -1,0 +1,50 @@
+.party{
+    display: flex;
+    padding: 80px;
+    background-color: darkgray;
+
+
+}
+
+.head{
+    background-color: lightblue;
+      padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.ache{
+    background-color: lightcoral;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-left: 50px;
+
+
+}
+input[type=submit]{
+    background-color: lightpink;
+    margin-left: 90%;
+}
+select{
+    padding-left: 10px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    text-align: left;
+}
+textarea{
+    border-color: #ff50b3;
+}
+input[type=radio]:hover{
+    color: #ff50b3;
+}
+.but{
+    margin-right: 90%;
+}
+.form2{
+    color: white;
+
+}

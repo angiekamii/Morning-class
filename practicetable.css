@@ -1,0 +1,23 @@
+table,th,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+table{
+   width: 100%;
+   height: 100%;
+    background-color: pink;
+}
+.th{
+    background-color: yellow;
+}
+.j{
+    background-color: yellow;
+}

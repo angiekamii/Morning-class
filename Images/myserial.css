@@ -1,0 +1,16 @@
+table,th,td{
+    border: 4px solid darkseagreen;
+}
+th,td{
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+th,.yellow{
+    background-color: orange;
+}
+table{
+    text-align: center;
+    width: 100%;
+}

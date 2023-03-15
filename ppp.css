@@ -1,0 +1,19 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+   height: 100px;
+    padding-left: 30px;
+}
+.pp{
+    background-color: darkgray;
+}
+th{
+    text-align: left;
+    background-color: lightgrey;
+}
+.age{
+    text-align: right;
+}
